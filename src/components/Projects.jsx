@@ -1,7 +1,7 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/UseScrollAnimation';
-import OtakuList from "../assets/Otakulist.jpg";
+import OtakuList from "../assets/otakulist.jpg";
 import MotionSicknees from "../assets/motions.jpg";
 
 const Projects = () => {
