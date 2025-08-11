@@ -1,5 +1,6 @@
 import React from "react";
 import { useScrollAnimation } from "../hooks/UseScrollAnimation.jsx";
+import gambar from "../assets/profile.jpeg"
 
 const About = () => {
   const isVisible = useScrollAnimation();
@@ -23,14 +24,14 @@ const About = () => {
             <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
           </div>
 
-          <div className="space-y-30 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center gap-y-16">
+          <div className="space-y-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center gap-y-16">
             {/* Profile Image */}
-            <div className="relative order-1 lg:order-2">
+            <div className="relative order-2 lg:order-2">
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-400 rounded-3xl transform rotate-6"></div>
                 <div className="relative bg-white p-2 rounded-3xl transform -rotate-3 hover:rotate-0 transition-transform duration-500">
                   <img
-                    src="https://i.pinimg.com/736x/97/39/7f/97397faedbdc9474e5dfad549cd89f8f.jpg"
+                    src= {gambar}
                     alt="Profile"
                     className="w-full h-full object-cover rounded-2xl"
                   />
