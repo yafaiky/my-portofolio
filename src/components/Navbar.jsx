@@ -41,7 +41,7 @@ const Navbar = () => {
                 isScrolled ? "text-blue-600" : "text-white"
               }`}
             >
-              My Portfolio
+              Rizky Yafa
             </h1>
           </div>
 
