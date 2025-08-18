@@ -1,6 +1,6 @@
 import React from "react";
 import { useScrollAnimation } from "../hooks/UseScrollAnimation.jsx";
-import gambar from "../assets/profile.jpeg"
+import gambar from "../assets/image.png"
 
 const About = () => {
   const isVisible = useScrollAnimation();
